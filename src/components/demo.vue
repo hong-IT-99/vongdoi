@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>{{demo}}</h1>
-        <h2>{{msg}}</h2>
+        <h1 >{{demo}}</h1>
+        <h2 v-test="'yellow'">{{dm}}</h2>
     </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     },
     name:'DangDemo',
     props: {
-        msg: String
+        dm: String
     },
     beforeCreate(){
         alert('beforeCreate')
