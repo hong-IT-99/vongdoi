@@ -2,6 +2,9 @@
     <div>
         <h1 >{{demo}}</h1>
         <h2 v-test="'yellow'">{{dm}}</h2>
+        <h1>
+            <blog-post='abcxyz'/>
+        </h1>
     </div>
 </template>
 

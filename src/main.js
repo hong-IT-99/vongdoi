@@ -6,6 +6,10 @@ Vue.directive('test', {
     el.style.backgroundColor = 'red';
   }
 });
+Vue.component('test-props', {
+  props: ['myProp'],
+  template: ' <h1>{{ myProp }}</h1>'
+})
 
 Vue.config.productionTip = false,
 

@@ -9,7 +9,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import demo from './components/demo'
+// import demo from './components/demo'
 import DangDemo from './components/demo'
 
 
@@ -17,7 +17,7 @@ export default {
   name: 'app',
   components: {
     HelloWorld,
-    demo,
+    // demo,
     DangDemo
     
   }
